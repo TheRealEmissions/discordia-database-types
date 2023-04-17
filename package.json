@@ -1,0 +1,19 @@
+{
+  "name": "discordia-database-types",
+  "version": "1.0.0",
+  "description": "Types for Discordia addon Database",
+  "main": "database/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therealemissions/discordia-database-types.git"
+  },
+  "author": "Emissions#2565",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/therealemissions/discordia-database-types/issues"
+  },
+  "homepage": "https://github.com/therealemissions/discordia-database-types#readme"
+}
