@@ -7,6 +7,5 @@ declare class App extends BaseApp {
     static getDatabaseClass(): IDatabase<Schema>;
     init(): Promise<void>;
     private loadMongoDB;
-    private loadMySQL;
 }
 export default App;
