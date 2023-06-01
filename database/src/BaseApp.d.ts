@@ -1,6 +1,6 @@
 import Base from "ts-modular-bot-file-design";
 import { Dependency } from "ada-types";
-import Events from "ts-modular-bot-addon-events-types";
+import Events from "ada-events-types";
 import { Database } from "./Enums/Database";
 import { Model } from "./Model/Model";
 import { Schema, SchemaType } from "./Types/SchemaType";
@@ -21,7 +21,7 @@ declare abstract class BaseApp extends Base {
     get Schema(): typeof DatabaseSchema;
     get Model(): typeof Model;
     static Events: typeof Events;
-    getEvents(): import("ts-modular-bot-addon-events-types/events/src/App").default;
+    getEvents(): import("ada-events-types/events/src/App").default;
     getDependencies(): Dependency[];
 }
 export default BaseApp;
