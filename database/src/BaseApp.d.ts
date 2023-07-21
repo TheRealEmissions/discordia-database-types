@@ -1,4 +1,4 @@
-import Base from "ts-modular-bot-file-design";
+import Base from "ada-file-design";
 import { Dependency } from "ada-types";
 import Events from "ada-events-types";
 import { Database } from "./Enums/Database";
